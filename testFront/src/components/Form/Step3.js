@@ -70,36 +70,6 @@ export class Finish  extends Component {
             }
             label="Scared"
           />
-           <FormControlLabel
-            control={
-              <Checkbox
-                value="happiness"
-                onChange={pushChange("feelings")}
-                name="happiness"
-              />
-            }
-            label="happiness"
-          />
-           <FormControlLabel
-            control={
-              <Checkbox
-                value="surprise"
-                onChange={pushChange("feelings")}
-                name="surprise"
-              />
-            }
-            label="surprise"
-          />
-           <FormControlLabel
-            control={
-              <Checkbox
-                value="good"
-                onChange={pushChange("feelings")}
-                name="good"
-              />
-            }
-            label="good"
-          />
         </FormGroup>
         <FormHelperText>
          You can choose several feelings.
